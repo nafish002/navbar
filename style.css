@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(1, 1, 39);
+    letter-spacing: 1px;
+}
+.container {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.brand-section {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+}
+.brand-logo {
+    margin-right: 1rem;
+}
+.brand-logo span {
+    color: #fff;
+    font-size: 2rem;
+}
+.brand-title a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-menu {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+}
+.user-menu a,
+.main-menu a {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.user-menu {
+    align-items: center;
+    margin-left: auto;
+    display: flex;
+}
+.user-menu button {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+}
+.user-menu button > span {
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
